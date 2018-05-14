@@ -76,9 +76,30 @@
       <hr>
       <h3>Login to MyApp</h3>
       <p>Enter User credentials
+        <form action ='login.php' method='POST' enctype='multipart/form-data'>
+
+                   <div class="form-group row">
+                       <label for="email" class="col-sm-2 col-form-label">Email</label>
+                       <div class="col-sm-10">
+                         <input type="email" class="form-control" id="email" name="email" Placeholder="User Email">
+                       </div>
+                   </div>
+
+                   <div class="form-group row">
+                       <label for="password" class="col-sm-2 col-form-label">password</label>
+                       <div class="col-sm-10">
+                         <input type="password" class="form-control" id="password" name="password" Placeholder="Password">
+                       </div>
+                   </div>
+
+                   <button type="submit" class="btn btn-success" id="submit" name="submit">Login</button>
+
+                 </br> </br> </br>
+                  <button type="submit" class="btn btn-primary" id="enter" name="submit">Login with Facebook</button>
+
+                 </form>
 
 
-       
       </p>
     </div>
     <div class="col-sm-2 sidenav">
