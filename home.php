@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Assignment 3</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,7 +15,7 @@
     }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+    .row.content {height: 510px}
 
     /* Set gray background color and 100% height */
     .sidenav {
@@ -51,7 +51,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#">MyApp</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -60,7 +60,7 @@
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> Login</a></li>
+        <li><a href="login.php"> Login</a></li>
       </ul>
     </div>
   </div>
@@ -71,7 +71,7 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-left">
-      <h1>Welcome To My App</h1>
+      <h1>Welcome To MyApp</h1>
       <p></p>
       <hr>
       <h3>Social Login using OAuth 2.0 framework</h3>
