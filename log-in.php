@@ -15,7 +15,7 @@
     }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 510px}
+    .row.content {height: 550px}
 
     /* Set gray background color and 100% height */
     .sidenav {
@@ -69,38 +69,6 @@
 <div class="container-fluid text-center">
   <div class="row content">
     <div class="col-sm-2 sidenav">
-    </div>
-    <div class="col-sm-8 text-left" align = "center">
-      <h1>Welcome To MyApp</h1>
-      <p></p>
-      <hr>
-      <h3>Login to MyApp</h3>
-      <p>Enter User credentials
-        <form action ='login.php' method='POST' enctype='multipart/form-data'>
-
-                   <div class="form-group row">
-                       <label for="email" class="col-sm-2 col-form-label">Email</label>
-                       <div class="col-sm-10">
-                         <input type="email" class="form-control" id="email" name="email" Placeholder="User Email">
-                       </div>
-                   </div>
-
-                   <div class="form-group row">
-                       <label for="password" class="col-sm-2 col-form-label">password</label>
-                       <div class="col-sm-10" align= "center">
-                         <input type="password" class="form-control" id="password" name="password" Placeholder="Password">
-                       </div>
-                   </div>
-
-                   <button type="submit" class="btn btn-success" id="submit" name="submit">Login</button>
-
-                 </br> </br> </br>
-                  <button type="submit" class="btn btn-primary" id="enter" name="submit">Login with Facebook</button>
-
-                 </form>
-
-
-      </p>
     </div>
     <div class="col-sm-2 sidenav">
 
