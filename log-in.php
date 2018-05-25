@@ -67,12 +67,12 @@
 </nav>
 
 <div class="container-fluid text-center">
-  <div class="row justify-content-center">
-        <div class="col-md-6 col-offset-3">
-
+  <div class="row content">
+         <div class="col-sm-5" align= "center">
+<br><br><br><br><br><br>
         <form >
           <input placeholder="Email..." name="email" class="form-control"> <br>
-          <input type="password" placeholder="password..." name="password" class="form">
+          <input type="password" placeholder="Password..." name="password" class="form-control"> <br><br>
           <input type="submit" value="Log in" class="btn btn-success">
           <input type="button" value="Log in with Facebook" class="btn btn-primary" >
         </form>
