@@ -60,7 +60,7 @@
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.php"> Login</a></li>
+        <li><a href="log-in.php"> Login</a></li>
       </ul>
     </div>
   </div>
