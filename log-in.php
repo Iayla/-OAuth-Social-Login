@@ -1,3 +1,13 @@
+<? php
+   require_once "config.php";
+   $loginURL - $gClient->createAuthUrl();
+
+<?
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,7 +70,7 @@
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      
+
       </ul>
     </div>
   </div>
@@ -78,7 +88,7 @@
           <input placeholder="Email..." name="email" class="form-control"> <br>
           <input type="password" placeholder="Password..." name="password" class="form-control"> <br><br>
           <input type="submit" value="Log in" class="btn btn-success">
-          <input type="button" value="Log in with Google" class="btn btn-danger" >
+          <input type="button" onclick="windows.location = " <?php echo "$loginURL"; ?> value="Log in with Google" class="btn btn-danger" >
         </form>
       </div>
 
